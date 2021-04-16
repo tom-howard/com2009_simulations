@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>com2009_simulations</name>
+  <version>0.0.0</version>
+  <description>The com2009_simulations package</description>
+
+  <maintainer email="t.howard@sheffield.ac.uk">Tom Howard</maintainer>
+
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <url type="website">http://github.com/tom-howard/com2009_simulations</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>gazebo_ros</depend>
+  <exec_depend>gazebo</exec_depend>
+  
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>
