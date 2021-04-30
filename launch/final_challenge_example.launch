@@ -1,9 +1,9 @@
 <launch>
   <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
-  <arg name="x_pos" default="-2.06729"/>
-  <arg name="y_pos" default="-1.97396"/>
+  <arg name="x_pos" default="-1.41861"/>
+  <arg name="y_pos" default="-1.70014"/>
   <arg name="z_pos" default="0.0"/>
-  <arg name="yaw" default="1.571"/>
+  <arg name="yaw" default="-1.571"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find com2009_simulations)/worlds/final_challenge_example.world"/>
