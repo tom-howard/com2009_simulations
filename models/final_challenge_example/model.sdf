@@ -624,12 +624,12 @@
       </visual>
     </link>
     <link name='cyl_b'>
-      <pose frame=''>2.04977 0.92898 0.1 0 0 0</pose>
+      <pose frame=''>2.04977 0.92898 0.175 0 0 0</pose>
       <collision name='coll'>
         <geometry>
           <cylinder>
             <radius>0.26</radius>
-            <length>0.2</length>
+            <length>0.35</length>
           </cylinder>
         </geometry>
         <max_contacts>10</max_contacts>
@@ -647,7 +647,7 @@
         <geometry>
           <cylinder>
             <radius>0.26</radius>
-            <length>0.2</length>
+            <length>0.35</length>
           </cylinder>
         </geometry>
         <material>
@@ -659,18 +659,18 @@
       </visual>
     </link>
     <link name='box_a'>
-      <pose frame=''>2.07141 -0.76400 0.11 0 0 0</pose>
+      <pose frame=''>2.07141 -0.76400 0.2 0 0 0</pose>
       <collision name='coll'>
         <geometry>
           <box>
-            <size>0.3 0.6 0.22</size>
+            <size>0.3 0.6 0.4</size>
           </box>
         </geometry>
       </collision>
       <visual name='vis'>
         <geometry>
           <box>
-            <size>0.3 0.6 0.22</size>
+            <size>0.3 0.6 0.4</size>
           </box>
         </geometry>
         <material>
